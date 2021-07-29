@@ -1,5 +1,6 @@
 body{
   font-family: "Montserrat-thin";
+  text-align: center;
 }
 h1 ,h2, h3, h4, h5, h6{
   font-family: 'Montserrat-black';
@@ -18,15 +19,19 @@ h1 ,h2, h3, h4, h5, h6{
 .p-text{
   color: #8f8f8f;
 }
-#title{
+.container-fluid {
+padding: 7% 15% ;
+}
+/* section-heading */
+
+.colored-section{
   background-color: #FF3D68;
   color: #fff;
 }
 
-.container-fluid {
-padding: 3% 15% ;
-}
+.white-section{
 
+}
 .icon{
   color: #FF6767;
   margin-bottom: 1rem;
@@ -58,9 +63,24 @@ padding: 0 0 4.5rem ;
 .download-button{
   margin: 5% 3% 5% 0%;
 }
+/* Title section */
+#title{
+  text-align: left;
+}
+#title.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Title Image */
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
 /* feature Section */
 #features{
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
@@ -68,24 +88,13 @@ padding: 0 0 4.5rem ;
     font-size: 1.5rem;
 }
 .feature-box{
-  text-align: center;
   padding: 5%;
   font-family: "Montserrat-bold bold";
   font-size: 1.5rem;
 }
-/* Title Image */
-.title-image{
-  width: 50%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 25%;
-}
-
 /* Testimonial section */
 #testimonials{
-text-align: center;
 background-color: #FF6767;
-color: #fff;
 }
 .testimonial-text{
   font-size: 3rem;
@@ -96,12 +105,9 @@ color: #fff;
   border-radius: 100%;
   margin: 20px;
 }
-.carousel-item{
-    padding: 7% 15%;
-}
+
 #press{
   background-color: #FF6767;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-logo{
@@ -112,7 +118,6 @@ color: #fff;
 /* Pricing Section */
 #pricing{
   padding: 100px;
-  text-align: center;
 }
 .price-text{
   line-height: 1.5rem;
@@ -124,26 +129,14 @@ color: #fff;
 
 /* Call to action */
 
-#cta{
-  background-color: #FF3D68;
-    color: #fff;
-    text-align: center;
-    padding: 7% 15%;
-
-}
-
 .cta-heading{
   font-family: "Montserrat-black";
   font-size: 3.5rem;
   line-height: 3.5rem;
 }
 /* footer */
-#footer{
-  text-align: center;
-  padding: 7% 15%;
-}
+
 .f-p{
-  text-align: center;
   color: #8f8f8f;
 }
 .social-icon{
